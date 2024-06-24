@@ -1,0 +1,76 @@
+.bodyf1{
+        background-color: #b4b0b0;
+}
+.footer_container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.footer_col h5 a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: var(--header-font);
+    color: black;
+}
+.footer_col h4{
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: brown;
+}
+.footer_col p{
+    margin-bottom: 1rem;
+    margin-right: 6rem;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+.footer_col form{
+    margin-bottom: 2rem;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.footer_col input{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+.footer_col button{
+    outline: none;
+    border: none;
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    background-color: transparent;
+    cursor: pointer;
+}
+.footer_socials h4{
+    margin-bottom: 5px;
+
+}
+.footer_socials div{
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+
+}
+.footer_socials a{
+   font-size: 1.75rem;
+   color: var(--text-dark);
+}
+
+.footer_socials a:hover{
+    color: var(--primary-color);
+
+}
+.footer_bar{
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: var(--text-ligt);
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: url('../../assets/pantai1.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text {
+    text-align: center;
+    max-height: 800px;
+}
+.hero-text h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.hero-text h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+.warna-hitam {
+    color: black;
+}
+.hero-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #5183d4;
+  }
+  
+.alert {
+    padding: 20px;
+    background-color: #7AA2E3; /* Red */
+    color: white;
+    position: fixed;
+    top: 80%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
